@@ -1,8 +1,5 @@
-function skillMember() {
-  return {
-    name: 'skillMember',
-    type: 'member',
-    skill: 'skill',
-    level: 1,
-  };
+function skillsMember() {
+  // Get the member's skills
+  var skills = member.skills;
+  return skills;
 }
